@@ -1,0 +1,55 @@
+body {
+  background-color:darkcyan;
+}
+
+.main-box {
+  margin: 10% 30% 0 30%;
+  border: solid black 1px;
+  background-color: #2d2e2e;
+  color: white;
+  border-radius: 5px;
+  background-image: url("react-icon-large.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.nav-logo {
+  width: 40px;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  background-color: black;
+  border-radius: 5px 5px 0 0;
+}
+
+header > h3 {
+  float: right;
+  color: aqua;
+  padding-left: 5px;
+}
+
+header > h4 {
+  margin-left: auto;
+  padding-right: 10px;
+}
+
+.main-content {
+  padding: 7% 10% 20% 5%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color:aqua;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  padding-bottom: 10px;
+}
